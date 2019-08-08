@@ -1,7 +1,3 @@
----
-description: detailed explanation about VALUE representation in Ruby
----
-
 # VALUE
 
 I want to tell you about VALUE the most basic ruby conception if you take a look on sources it will be present everywhere. Example of C representation of method `Enumerable#select`:

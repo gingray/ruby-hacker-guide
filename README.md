@@ -1,10 +1,8 @@
----
-description: ruby hacker guide
----
+# Ruby internal hackers guide
 
-# table of contents
+## Table of Contents
+1. [VALUE](value.md)
+2. [Class](class.md)
 
-{% page-ref page="value.md" %}
 
-{% page-ref page="class.md" %}
 
