@@ -1,6 +1,6 @@
 # Table of contents
 
-* [VALUE](README.md)
-* [Class](class.md)
+* [table of contents](README.md)
 * [VALUE](value.md)
+* [Class](class.md)
 
