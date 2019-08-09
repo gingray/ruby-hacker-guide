@@ -116,6 +116,15 @@ enum ruby_value_type {
     RUBY_T_MASK   = 0x1f
 };
 ```
-
+Which function/macros are available to work with `VALUE` short list of them
+```c
+void rb_check_type(VALUE,int); //check value have proper type if not raise exception
+int rb_type(VALUE obj); // return obj type
+rb_type_p(obj, type); return true if obj match type
+char *rb_string_value_ptr(volatile VALUE*); // return pointer to a char sequence from string VALUE
+VALUE rb_str_new(const char *ptr, long len); // create ruby string from char*
+VALUE rb_sprintf(const char *format, ...); // create ruby string from formated *char
+VALUE rb_data_typed_object_wrap(VALUE klass, void *datap, const rb_data_type_t *type); // function wrap user structure to a ruby object
+```
 
 
