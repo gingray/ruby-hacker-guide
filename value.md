@@ -115,6 +115,20 @@ enum ruby_value_type {
 
     RUBY_T_MASK   = 0x1f
 };
+
+Describe functions working with int
+
+Describe functions working with float
+
+Describe functions working with string
+
+Describe fundtions working with array
+
+Describe functions working with hash
+
+Describe functions working with custom struct
+
+Describe functions working with block
 ```
 Which function/macros are available to work with `VALUE` short list of them
 ```c
